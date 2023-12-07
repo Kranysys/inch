@@ -1,24 +1,20 @@
-# README
+# Projet INCH
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Quickstart
 
-Things you may want to cover:
+Installer les dépendances : `bundle install`
 
-* Ruby version
+Migration de la base de donnée : `rails db:migrate`
 
-* System dependencies
+Lancer le backend : `rails server`
 
-* Configuration
+Test : `rails test`
 
-* Database creation
+### Fichiers d'exemples
 
-* Database initialization
+- Persons.csv : fichier d'exemple de 5 personnes
+- Buildings.csv : fichier d'exemple de bâtiments
 
-* How to run the test suite
+### Auteurs
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Nicolas BAPTISTA

@@ -1,0 +1,5 @@
+<%= form_with url: import_path, multipart: true do |form| %>
+  <%= form.file_field :file %>
+  <%= form.select :type, [['Person', 'person'], ['Building', 'building']] %>
+  <%= form.submit "Import CSV" %>
+<% end %>

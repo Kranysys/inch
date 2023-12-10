@@ -8,7 +8,17 @@ Migration de la base de donnée : `rails db:migrate`
 
 Lancer le backend : `rails server`
 
-Test : `rails test`
+### Tests
+
+Utilisation de RSpec pour les tests unitaires
+
+Lancer les tests : `bundle exec rspec`
+
+### Routes API
+
+- http://localhost:3000/up : Vérification que le backend fonctionne
+- POST http://localhost:3000/import/new : Importation d'un fichier CSV (Building ou Persons)
+- GET http://localhost:3000/import/new : Interface d'envoi de fichier CSV (Building ou Persons)
 
 ### Fichiers d'exemples
 

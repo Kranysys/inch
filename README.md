@@ -16,7 +16,7 @@ Lancer les tests : `bundle exec rspec`
 
 ### Routes API
 
-- http://localhost:3000/up : Vérification que le backend fonctionne
+- GET http://localhost:3000/up : Vérification que le backend fonctionne
 - POST http://localhost:3000/import/new : Importation d'un fichier CSV (Building ou Persons)
 - GET http://localhost:3000/import/new : Interface d'envoi de fichier CSV (Building ou Persons)
 
